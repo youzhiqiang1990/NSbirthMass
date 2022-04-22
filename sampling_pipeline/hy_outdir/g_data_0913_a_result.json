@@ -1,7 +1,0 @@
-{
-  "label": "g_data_0913_a",
-  "outdir": "/home4/yzq/NS_mass/hy_outdir",
-  "sampler": "dynesty",
-  "log_evidence": 26.130974492061434,
-  "log_evidence_err": NaN,
-  "log_noise_evidence": 

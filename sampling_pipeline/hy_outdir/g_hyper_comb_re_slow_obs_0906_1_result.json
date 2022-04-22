@@ -1,7 +1,0 @@
-{
-  "label": "g_hyper_comb_re_slow_obs_0906_1",
-  "outdir": "/home4/yzq/NS_mass/hy_outdir",
-  "sampler": "dynesty",
-  "log_evidence": 10.977782750142953,
-  "log_evidence_err": NaN,
-  "log_noise_evidence": 
