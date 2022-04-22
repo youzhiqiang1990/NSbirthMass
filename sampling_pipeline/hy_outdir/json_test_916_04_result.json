@@ -1,0 +1,7 @@
+{
+  "label": "json_test_916_04",
+  "outdir": "/home4/yzq/NS_mass/hy_outdir",
+  "sampler": "dynesty",
+  "log_evidence": 39.22763566511301,
+  "log_evidence_err": 0.6325706943856504,
+  "log_noise_evidence": 

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# list all directories and store in an array called dirs
+shopt -s nullglob
+dirs=(*/)
+shopt -u nullglob # Turn off nullglob to make sure it doesn't interfere with anything later
+echo "${dirs[@]}" 
+
+for dir in ${dirs[@]} 
+do
+    cd $dir
+    sbatch slurm.sh 
+    cd ..
+    #printf "$dir\n"
+done

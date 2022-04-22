@@ -1,0 +1,79 @@
+16:25 bilby INFO    : Running for label 'u_hype_27224', output will be saved to 'hy_outdir'
+16:25 bilby INFO    : Search parameters:
+16:25 bilby INFO    :   mu1 = Uniform(minimum=0.9, maximum=2.9, name='mu1', latex_label='$\\mu_1$', unit=None, boundary=None)
+16:25 bilby INFO    :   sigma1 = Uniform(minimum=0.01, maximum=2, name='sigma1', latex_label='$\\sigma_1$', unit=None, boundary=None)
+16:25 bilby INFO    :   mu2 = Uniform(minimum=0.9, maximum=2.9, name='mu2', latex_label='$\\mu_2$', unit=None, boundary=None)
+16:25 bilby INFO    :   sigma2 = Uniform(minimum=0.01, maximum=2, name='sigma2', latex_label='$\\sigma_2$', unit=None, boundary=None)
+16:25 bilby INFO    :   alpha = Uniform(minimum=0.01, maximum=1, name='alpha', latex_label='$\\alpha$', unit=None, boundary=None)
+16:25 bilby INFO    :   mlo = Uniform(minimum=0.9, maximum=1.5, name='mlo', latex_label='$\\rm{m^l}$', unit=None, boundary=None)
+16:25 bilby INFO    : Single likelihood evaluation took 4.571e-03 s
+16:25 bilby INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'reflective': None, 'check_point_delta_t': 600, 'nlive': 400, 'first_update': None, 'walks': 100, 'npdim': None, 'rstate': None, 'queue_size': 8, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': 1.5, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 8.0, 'facc': 0.2, 'slices': 5, 'update_interval': 240, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x7f1511ce0048>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False, 'n_effective': None, 'maxmcmc': 5000, 'nact': 5}
+16:25 bilby INFO    : Checkpoint every check_point_delta_t = 600s
+16:25 bilby INFO    : Using dynesty version 1.1
+16:26 bilby INFO    : Using the bilby-implemented rwalk sample method with ACT estimated walks
+16:26 bilby INFO    : Setting up multiproccesing pool with 8 processes.
+16:32 bilby WARNING : Unable to find a new point using walk: returning a random point
+16:36 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+16:46 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+16:56 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:06 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:15 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:16 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:26 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:37 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:37 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:38 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:47 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:54 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:54 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:57 bilby WARNING : Unable to find a new point using walk: returning a random point
+17:57 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+17:57 bilby INFO    : Writing 206 current samples to hy_outdir/u_hype_27224_samples.dat
+17:59 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:07 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+18:07 bilby INFO    : Writing 348 current samples to hy_outdir/u_hype_27224_samples.dat
+18:16 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:16 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:17 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+18:17 bilby INFO    : Writing 627 current samples to hy_outdir/u_hype_27224_samples.dat
+18:26 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:27 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+18:27 bilby INFO    : Writing 1118 current samples to hy_outdir/u_hype_27224_samples.dat
+18:38 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+18:38 bilby INFO    : Writing 2076 current samples to hy_outdir/u_hype_27224_samples.dat
+18:38 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:39 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:39 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:39 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:40 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:40 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:40 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:40 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:40 bilby WARNING : Unable to find a new point using walk: returning a random point
+18:41 bilby INFO    : Written checkpoint file hy_outdir/u_hype_27224_resume.pickle
+18:41 bilby INFO    : Writing 2064 current samples to hy_outdir/u_hype_27224_samples.dat
+18:41 bilby INFO    : Starting to close worker pool.
+18:41 bilby INFO    : Finished closing worker pool.
+18:41 bilby INFO    : Sampling time: 2:15:15.693224
+18:41 bilby ERROR   : 
+
+ Saving the data has failed with the following message:
+ Object of type int64 is not JSON serializable 
+
+
+18:41 bilby ERROR   : 
+
+ Saving the data has failed with the following message:
+ Object of type int64 is not JSON serializable 
+
+
+18:41 bilby INFO    : Summary of results:
+nsamples: 6143
+ln_noise_evidence:  0.000
+ln_evidence: 46.654 +/-  0.218
+ln_bayes_factor: 46.654 +/-  0.218
+
+WARNING:matplotlib.font_manager:findfont: Font family ['serif'] not found. Falling back to DejaVu Sans.
+WARNING:matplotlib.font_manager:findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Roman
+WARNING:matplotlib.font_manager:findfont: Font family ['serif'] not found. Falling back to DejaVu Sans.
+WARNING:matplotlib.font_manager:findfont: Generic family 'serif' not found because none of the following families were found: Computer Modern Roman

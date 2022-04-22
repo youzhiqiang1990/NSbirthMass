@@ -1,0 +1,7 @@
+{
+  "label": "t_hype_comb_obs_all_0906",
+  "outdir": "/home4/yzq/NS_mass/hy_outdir",
+  "sampler": "dynesty",
+  "log_evidence": 27.752715960152706,
+  "log_evidence_err": 0.1445856124573738,
+  "log_noise_evidence": 

@@ -1,0 +1,7 @@
+{
+  "label": "u_hype_67802",
+  "outdir": "/data/users/yzq/NS_mass/EVI_n2/cal_tau/2G_cut_min/hy_outdir",
+  "sampler": "dynesty",
+  "log_evidence": 48.21872793479671,
+  "log_evidence_err": 0.21051220628312156,
+  "log_noise_evidence": 

@@ -1,0 +1,7 @@
+{
+  "label": "g_hyper_slow_all_0905_2",
+  "outdir": "/home4/yzq/NS_mass/hy_outdir",
+  "sampler": "dynesty",
+  "log_evidence": 18.547457330852215,
+  "log_evidence_err": 0.21542819540448688,
+  "log_noise_evidence": 
